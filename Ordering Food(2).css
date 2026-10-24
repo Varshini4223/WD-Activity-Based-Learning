@@ -1,0 +1,57 @@
+.reviews {
+    background-color: #eaf4f4;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.review-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border-bottom: 4px solid #ffb703;
+    box-shadow: 0 4px 12px #00000010;
+}
+
+.stars {
+    margin-bottom: 12px;
+}
+
+.review-card h4 {
+    color: #007f5f;
+    margin-top: 12px;
+}
+
+/* Footer */
+footer {
+    background-color: #20243a;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+footer h2 {
+    color: #ffb703;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    color: #cccccc;
+    margin-top: 18px;
+    font-size: 13px;
+}
+
+/* Tablet Responsive Design */
+@media (max-width: 1000px) {
+    .food-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+}

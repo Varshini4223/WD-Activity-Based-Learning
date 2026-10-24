@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f0ff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #4b0082, #0077ff, #e83e8c);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: 32px;
+}
+
+header h2 {
+    margin: 5px;
+    color: #ffeb99;
+}
+
+header .fest {
+    font-size: 45px;
+    color: #ffff00;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Register Button */
+.button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333333;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #30045c;
+    text-align: center;
+    padding: 15px;
+    border-radius:50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* All Sections */
+section {
+    padding: 30px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+section h2 {
+    text-align: center;
+    color: #6a11cb;
+    margin-bottom: 20px;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+.intro p {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Event Cards */
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event {
+    background: linear-gradient(to bottom right, #e0c3fc, #c2e9fb);
+    padding: 20px;
+    width: 230px;
+    border-radius: 12px;
+    text-align: center;
+    border-bottom: 5px solid #8e44ad;
+    transition: transform 0.3s;
+}
+
+.event:hover {
+    transform: translateY(-8px);
+    background: linear-gradient(to bottom right, #ffc3a0, #ffafbd);
+}
+
+.event h3 {
+    color: #540688;
+}
+
+/* Note */
+.note {
+    text-align: center;
+    color: #777777;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    background-color: #e8f5e9;
+}
+
+#contact h2 {
+    color: #00804a;
+}
+
+/* Footer */
+footer {
+    background-color: #25004d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header .fest {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .event {
+        width: 100%;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px 4px;
+    }
+
+    section {
+        margin: 12px;
+        padding: 20px 12px;
+    }
+}
